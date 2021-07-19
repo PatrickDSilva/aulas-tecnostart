@@ -8,7 +8,4 @@
 
 1. globo esporte inclusões:
 
-‰PNG
-
-
 
