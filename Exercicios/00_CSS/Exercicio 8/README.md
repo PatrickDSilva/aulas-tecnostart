@@ -1,0 +1,1 @@
+![image](https://{http://127.0.0.1:5500/aulas-tecnostart01/aulas-tecnostart01/Exercicios/00_CSS/Exercicio%208/Table.html})
