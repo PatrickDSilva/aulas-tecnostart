@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Aluno</title>
+    <link rel="icon" type="png" href="../Inicial/triangulo.png" alt="Logo de triangulo" size="16x16">
+</head>
+
+<body>
+    <img id="img" type="img/jpeg" src="../Sobre/TecnoStart.jpeg" alt="Logo TecnoStart" width="250px">
+
+    <header>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="../Inicial/Inicial.html" target="_self">Inicial</a>
+                </li>
+                <li>
+                    <a href="../Cadastro/Cadastro.html" target="_self">Cadastro</a>
+                </li>
+                <li>
+                    <a href="../Sobre/Sobre.html" target="_self">Sobre</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <form method="POST">
+
+            <fieldset id="Dados">
+                <legend>Dados Pessoais</legend>
+                <label>Nome: <input name="Nome-do-Aluno" type="text" required></label>
+                <label>Sobrenome: <input name= "Sobrenome" type="text" required></label>
+                <label>Data de Nascimento: <input name="Data de Nascimento" type="date" required></label>
+            </fieldset>
+
+            <fieldset id="sexo">
+                <legend>sexo</legend>
+                <label><input type="radio" name="sexo" id="radio" value="M" checked>Masculino</label>
+                <label><input type="radio" name="sexo" id="radio" value="F">Feminino</label>
+                <label><input type="radio" name="sexo" id="radio" value="LGBQT">LGBTQIA+</label>
+            </fieldset>
+
+            <fieldset id="Contato">
+                <legend>Dados Contato</legend>
+                <label>Telefone: <input name="Telefone" type="tel" required></label>
+                <label>E-mail: <input name="E-mail" type="text" required></label>
+            </fieldset>
+
+            <Fieldset>
+                <legend>Dados Acadêmicos</legend>
+                <label>Escolaridade</label>
+                <select name="dsEscolaridade" required>
+                <option value="" selected disabled>Selecione a Escolaridade</option>
+                <option value="1">Analfabeto</option>
+                <option value="2">Fundamental Incompleto</option>
+                <option value="3">Fundamental Completo</option>
+                <option value="4">Ensino Médio Incompleto</option>
+                <option value="5">Ensino Médio Completo</option>
+                <option value="6">Ensino Tecnico Incompleto</option>
+                <option value="7">Ensino Tecnico Completo</option>
+                <option value="8">Ensino Superior Incompleto</option>
+                <option value="9">Ensino Superior Completo</option>
+            </select>
+            </Fieldset>
+            <input type="submit" value="Cadastrar Aluno">
+        </form>
+    </main>
+
+
+
+
+    <footer> Todos os diretos são reservados aos guris da Tecno Start &#128526; &#169;
+        <a rel="noopener" target="_blank" href="https://policies.google.com/privacy?hl=pt-BR">Política de Privacidade
+    </a></footer>
+
+</body>
+
+</html>
