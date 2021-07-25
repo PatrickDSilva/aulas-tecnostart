@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Cadastro de Aluno</h1>
+    <form method="POST">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>Nome:<input name= "nome do aluno" type="text" required></label>
+            <label>Sobrenome:<input name= "sobrenome" type= "text" required></label>
+            <label>Data de Nascimento:<input name= "data de nascimento" type="date" required></label>
+        </fieldset>
+
+        <fieldset>
+            <Legend>Sexo</Legend>
+            <label><input type= "radio" name= "sexo" id= "radio-1" value= "M" checked>Masculino</label>
+            <label><input type="radio" name= "sexo" id="radio-2" value="F">Feminino</label>
+            <label><input type="radio" name="sexo" id="radio-3" value="LQBT">LGBT</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Pessoais </legend>
+            <label>Telefone:<input type="text" name= "Tel" required></label>
+            <label>E-mail:<input type= "text" name= "Email" required></label>
+        </fieldset>
+
+        <Fieldset>
+            <legend>Dados Acadêmicos</legend>
+            <label>Escolaridade</label>
+            <select name="dsEscolaridade" required>
+                <option value="" selected disabled>Selecione a Escolaridade</option>
+                <option value="1">Analfabeto</option>
+                <option value="2">Fundamental Incompleto</option>
+                <option value="3">Fundamental Completo</option>
+                <option value="4">Ensino Médio Incompleto</option>
+                <option value="5">Ensino Médio Completo</option>
+                <option value="6">Ensino Tecnico Incompleto</option>
+                <option value="7">Ensino Tecnico Completo</option>
+                <option value="8">Ensino Superior Incompleto</option>
+                <option value="9">Ensino Superior Completo</option>
+            </select>
+        </Fieldset>
+        <input type="submit" value="Cadastrar Aluno">
+    </form>
+
+</body>
+
+</html>
