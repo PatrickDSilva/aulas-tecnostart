@@ -1,0 +1,159 @@
+#menu ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    float: right;
+    position: relative;
+    top: -5px;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+li a {
+    margin: 15px;
+    padding: 5px;
+    position: relative;
+    top: -20px;
+}
+
+.form {
+    position: relative;
+    top: 50px;
+    border: 1px;
+    color;
+    border-style: solid;
+    width: 996px;
+    height: 296px;
+    text-align: ;
+}
+
+.C {
+    font-weight: bold;
+    font-size: larger;
+    margin: 5px;
+    margin: 0px;
+    position: relative;
+    top: -8px;
+    height: -15px;
+}
+
+.S {
+    margin: 2px;
+    position: relative;
+    top: -6px;
+    margin: 2px;
+    padding: 2px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.DC {
+    font-weight: bold;
+    margin: 5px;
+    margin: 0px;
+    position: relative;
+    top: -6px;
+    height: -15px;
+    font-size: larger;
+}
+
+.DP {
+    font-weight: bold;
+    position: relative;
+    font-size: larger;
+    margin: 0px;
+    margin: 0px;
+    top: -8px;
+}
+
+.M {
+    position: relative;
+    top: -2px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.N {
+    position: relative;
+    top: -6px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.DN {
+    position: relative;
+    top: -6px;
+    margin: 2px;
+    padding: 2px;
+}
+
+#Dados {
+    border: 0px;
+    margin: 0px;
+    padding: 4px;
+    top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+}
+
+#sexo {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+}
+
+#Contato {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 30px;
+}
+
+#Contato2 {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+}
+
+#botão {
+    text-align: center;
+    color: green;
+    position: relative;
+    top: 50px;
+    border: 15px;
+}
+
+#b {
+    width: 140px;
+    height: 50px;
+    border-style: solid;
+    margin: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: black;
+    background-color: green;
+}
+
+footer {
+    position: relative;
+    top: 300px;
+}

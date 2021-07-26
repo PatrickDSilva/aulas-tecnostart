@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
     <title>Contato</title>
     <link rel="icon" type="png" href="../Inicial/triangulo.png" alt="Logo de triangulo" size="16x16">
 </head>
@@ -12,13 +13,13 @@
     <img id="img" type="img/jpeg" src="../Sobre/TecnoStart.jpeg" alt="Logo TecnoStart" width="250px">
 
     <header>
-        <nav>
-            <ul id="menu">
+        <nav id="menu">
+            <ul>
                 <li>
                     <a href="../Inicial.html/Inicial.html" target="_self">Inicial</a>
                 </li>
                 <li>
-                    <a href="../Contato/Contato.html" target="_self">Cadastro</a>
+                    <a href="../Contato/Contato.html" target="_self">Contato</a>
                 </li>
                 <li>
                     <a href="../Sobre.html/Sobre.html" target="_self">Sobre</a>
@@ -29,31 +30,32 @@
 
 
     <main>
-        <form method="POST">
+
+        <form method="POST" class="form">
 
             <fieldset id="Dados">
-                <legend>Dados Pessoais</legend>
-                <label>Nome: <input name="Nome-do-Aluno" type="text" required></label>
-                <label>Sobrenome: <input name= "Sobrenome" type="text" required></label>
-                <label>Data de Nascimento: <input name="Data de Nascimento" type="date" required></label>
+                <legend class="DP">Dados Pessoais</legend>
+                <label class="N">Nome: <input name="Nome-do-Aluno" type="text" required></label>
+                <label class="S">Sobrenome: <input name= "Sobrenome" type="text" required></label>
+                <label class="DN">Data de Nascimento: <input name="Data de Nascimento" type="date" required></label>
             </fieldset>
 
             <fieldset id="sexo">
-                <legend>sexo</legend>
-                <label><input type="radio" name="sexo" id="radio" value="M" checked>Masculino</label>
+                <legend class="S">Sexo</legend>
+                <label class="M"><input type="radio" name="sexo" id="radio" value="M" checked>Masculino</label>
                 <label><input type="radio" name="sexo" id="radio" value="F">Feminino</label>
                 <label><input type="radio" name="sexo" id="radio" value="LGBQT">LGBTQIA+</label>
             </fieldset>
 
             <fieldset id="Contato">
-                <legend>Dados Contato</legend>
+                <legend class="DC">Dados Contato</legend>
                 <label>Telefone: <input name="Telefone" type="tel" required></label>
                 <label>E-mail: <input name="E-mail" type="text" required></label>
             </fieldset>
 
-            <Fieldset>
-                <legend>Dados Acadêmicos</legend>
-                <label>Escolaridade</label>
+            <Fieldset id="Contato2">
+                <legend class="C">Contato2</legend>
+                <label>Contato3</label>
                 <select name="dsEscolaridade" required>
                 <option value="" selected disabled>Selecione a Escolaridade</option>
                 <option value="1">Analfabeto</option>
@@ -67,7 +69,9 @@
                 <option value="9">Ensino Superior Completo</option>
             </select>
             </Fieldset>
-            <input type="submit" value="Cadastrar Aluno">
+            <div id="botão">
+                <input id="b" type="submit" value="Cadastrar Aluno">
+            </div>
         </form>
     </main>
 
