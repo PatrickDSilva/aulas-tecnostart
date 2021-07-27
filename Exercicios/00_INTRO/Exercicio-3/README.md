@@ -1,13 +1,8 @@
-#https://ge.globo.com/
-
-##https://g1.globo.com/
-
-###https://twitter.com/home?lang=pt
+#Exercicio 3
 
 
-
-  1. globoesporte
+  1. Globoesporte <https://ge.globo.com/>
   
-  2. G1
+  2. G1 <https://g1.globo.com/>
 
-  3. Twitter
+  3. Youtube  <https://www.youtube.com/>
