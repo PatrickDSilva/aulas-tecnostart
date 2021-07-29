@@ -4,60 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./default.css" href="Contato.css">
+    <link rel="stylesheet" href="Contato.css">
     <title>Contato</title>
-    <link rel="icon" type="png" href="../Inicial/triangulo.png" alt="Logo de triangulo" size="16x16">
+    <link rel="icon" type="jpeg/png" href="../Inicial.html/favicon.ico" alt="Logo de triangulo" size="16x16">
 </head>
 
 <body>
-    <img id="img" type="img/jpeg" src="../Sobre/TecnoStart.jpeg" alt="Logo TecnoStart" width="250px">
-
+    <img type="img/jpeg" src="./ImgFundoLinkedin.jpeg" alt="Logo TecnoStart" width="250px">
     <header>
-        <nav id="menu">
-            <ul>
-                <li>
-                    <a href="../Inicial.html/Inicial.html" target="_self">Inicial</a>
-                </li>
-                <li>
-                    <a href="../Contato/Contato.html" target="_self">Contato</a>
-                </li>
-                <li>
-                    <a href="../Sobre.html/Sobre.html" target="_self">Sobre</a>
-                </li>
-            </ul>
-        </nav>
+
+
+        <div class="container">
+            <img type="img/jpeg" src="./ImgFundoLinkedin.jpeg" alt="Logo TecnoStart" width="250px">
+
+
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="../Inicial.html/Inicial.html" target="_self">Inicial</a>
+                    </li>
+                    <li>
+                        <a href="./Contato.html" target="_self">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="../Sobre.html/Sobre.html" target="_self">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
 
     <main>
 
-        <form method="POST" class="form">
+        <form method="POST" class="container4">
 
-            <fieldset id="Dados">
-                <legend class="DP">Dados Pessoais</legend>
-                <label class="N">Nome: <input name="Nome-do-Aluno" type="text" required></label>
-                <label class="S">Sobrenome: <input name= "Sobrenome" type="text" required></label>
-                <label class="DN">Data de Nascimento: <input name="Data de Nascimento" type="date" required></label>
+
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="DP">
+                    <label>Nome:<input name="Nome-do-Aluno" type="text" required></label>
+                    <label>Sobrenome:<input name= "Sobrenome" type="text" required></label>
+                    <label>Data de Nascimento:<input name="Data de Nascimento" type="date" required></label>
+                </div>
             </fieldset>
 
-            <fieldset id="sexo">
-                <legend class="S">Sexo</legend>
-                <label class="M"><input type="radio" name="sexo" id="radio" value="M" checked>Masculino</label>
-                <label><input type="radio" name="sexo" id="radio" value="F">Feminino</label>
-                <label><input type="radio" name="sexo" id="radio" value="LGBQT">LGBTQIA+</label>
+            <fieldset>
+                <legend>Sexo</legend>
+                <div class="S">
+                    <label><input type="radio" name="sexo" id="radio" value="M" checked>Masculino</label>
+                    <label><input type="radio" name="sexo" id="radio" value="F">Feminino</label>
+                    <label><input type="radio" name="sexo" id="radio" value="LGBQT">LGBTQIA+</label>
+                </div>
             </fieldset>
 
-            <fieldset id="Contato">
-                <legend class="DC">Dados Contato</legend>
-                <label>Telefone: <input name="Telefone" type="tel" required></label>
-                <label>E-mail: <input name="E-mail" type="text" required></label>
+            <fieldset>
+                <legend>Dados Contato</legend>
+                <div class="C">
+                    <label>Telefone: <input name="Telefone" type="tel" required></label>
+                    <label>E-mail: <input name="E-mail" type="text" required></label>
+                </div>
             </fieldset>
 
-            <Fieldset id="Contato2">
-                <legend class="C">Contato2</legend>
-                <label>Contato3</label>
-                <select name="dsEscolaridade" required>
-                <option value="" selected disabled>Selecione a Escolaridade</option>
+            <Fieldset>
+                <legend>Contato2</legend>
+                <div class="C2">
+                    <label>Escolaridade</label>
+                    <select name="dsEscolaridade" required>
+                <option value=" " selected disabled>Selecione a Escolaridade</option>
                 <option value="1">Analfabeto</option>
                 <option value="2">Fundamental Incompleto</option>
                 <option value="3">Fundamental Completo</option>
@@ -67,10 +82,11 @@
                 <option value="7">Ensino Tecnico Completo</option>
                 <option value="8">Ensino Superior Incompleto</option>
                 <option value="9">Ensino Superior Completo</option>
-            </select>
+                </select>
+                </div>
             </Fieldset>
-            <div id="botão">
-                <input id="b" type="submit" value="Cadastrar Aluno">
+            <div class="container3">
+                <input class="botão" type="submit" value="Cadastrar Aluno">
             </div>
         </form>
     </main>
@@ -79,9 +95,12 @@
 
 
     <footer>
-        <p></p>Todos os diretos são reservados aos guris da Tecno Start &#128526; &#169;</p>
-        <a rel="noopener" target="_blank" href="https://policies.google.com/privacy?hl=pt-BR">Política de Privacidade
-    </a></footer>
+        <div class="POL">
+            <p>Todos os diretos são reservados aos guris da Tecno Start &#128526; &#169;</p>
+            <a rel="noopener" target="_blank" href="https://policies.google.com/privacy?hl=pt-BR ">Política de Privacidade</a>
+        </div>
+    </footer>
+
 
 </body>
 
