@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    position: relative;
+    border: 1px solid;
+    width: 800px;
+    height: 500px;
+    margin-left: 250px;
+    margin-right: 250px;
+    top: 60px;
+    border-width: 2px;
+    border-color: #E5E5E5;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+body {
+    max-width: 1200px;
+    height: 80%;
+}
+
+.borda {
+    position: absolute;
+    border-collapse: collapse;
+    margin-top: 120px;
+    width: 550px;
+    height: 300px;
+    padding: 10px;
+    margin-left: 150px;
+    margin-block-end: 150px;
+}
+
+.Nome {
+    border: 1px solid;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    border-color: #3C90AB;
+    color: white;
+    background-color: rgba(60, 144, 171, 1);
+}
+
+.Saldo {
+    border: 1px solid;
+    width: 6em;
+    height: 2em;
+    border-color: #3C90AB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    background-color: rgba(60, 144, 171, 1);
+}
+
+td,
+th {
+    border: 1px solid;
+    border-color: #3C90AB;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3C90AB;
+}
+
+img {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 75px;
+    height: 75px;
+    color: #FFF;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.Resumo {
+    display: flex;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 90px;
+    color: #90E4FF;
+    background: #90E4FF;
+    width: 800px;
+    height: 100px;
+    margin-top: -1px;
+}
+
+caption {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    color: #3C90AB;
+    margin-top: -212px;
+    margin-left: -135px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+span {
+    display: flex;
+    justify-content: flex-end;
+    color: #3C90AB;
+    margin-top: -45px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Atualizado {
+    margin-right: -20px;
+    font-size: large;
+}
+
+#SaldoTotal {
+    margin-right: 70px;
+}
+
+#Soma {
+    font-size: large;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-right: -40px;
+}
+
+.App {
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+footer {
+    position: absolute;
+    margin-top: 493px;
+    margin-left: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 21px;
+    ;
+}
