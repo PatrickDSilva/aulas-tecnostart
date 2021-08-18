@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    margin-top: 8px;
+    width: 700px;
+    height: 23em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    position: relative;
+    padding: 0.7em;
+    top: 2px;
+    right: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+input {
+    position: relative;
+    top: -12px;
+    width: 550px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-indent: 8px;
+}
+
+button {
+    width: 6.1em;
+    height: 2em;
+    margin-top: -5px;
+    font-size: large;
+    background-color: green;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+}
+
+table {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 44em;
+    height: 2.5em;
+}
+
+thead {
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 2.1em;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.nome {
+    border: 1px solid;
+    border-radius: 5px;
+    width: 30em;
+    height: 1.5em;
+    font-size: 18px;
+}
+
+.idade {
+    border: 1px solid;
+    border-radius: 5px;
+    height: 1.5em;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {}

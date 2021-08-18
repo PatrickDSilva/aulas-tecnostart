@@ -1,28 +1,27 @@
-// var tabuleiro = {
-//     "casas": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-//     ""
+// function jogar(tabuleiro){
+
+// }
+
+// function criarTabuleiro(nuemroCasas){
+//     if(numeroCasas < 10){
+//         throw 'Número de casas deve ser mairo que 10'
+//     }
+
+//     var tabuleiro = []
+
+//     for (var i= 0; i < numeroCasas.length; i++){
+//         tabuleiro.push('*')
+//     }
+
+
+//     return tabuleiro
+
 // }
 
 
-para(var linha = 1; linha <= 4; linha++) {
+// var numeroCasas = 50
+// var tabuleiro = criarTabuleiro(numeroCasas)
 
-    for (var coluna = 1; coluna <= 3; coluna++) {
-        console.log(`C. $ { coluna } L. $ { linha } `)
-    }
-    var teste = janela.prompt('teste');
-}
+// console.log(tabuleiro)
 
-// function casas (){
-//     Match.floor(Match.random()*10)
-// }
-// for (var linha = 1; linha <= 10; linha++) {
-//     console.log(linha);
-// }
-
-
-
-
-
-// dado
-// var dado = Match.floor(Match.random() * 6 + 1);
-// console.log(sorteio)
+// jogar(tabuleiro)
