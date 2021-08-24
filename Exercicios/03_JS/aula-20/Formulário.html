@@ -11,46 +11,60 @@
 
 <body>
     <main>
-        <form class="container" method="POST">
+        <div class="form">
+            <form class="container">
 
-            <fieldset>
-                <label>Nome</label>
-                <input name="nome" type="text" required>
-            </fieldset>
+                <div class="cards">
+                    <label for="nome">Nome</label>
+                    <input id="Nome" type="text" required>
+                </div>
 
-            <fieldset>
-                <label>Sobrenome</label>
-                <input name="Sobrenome" type="text" required></label>
-            </fieldset>
+                <div class="cards">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input id="Sobrenome" type="text" required></label>
+                </div>
 
-            <fieldset>
-                <label>Ano de Nascimento</label>
-                <input name="anoDeNascimento" type="date">
-            </fieldset>
+                <div class="cards">
+                    <label for="anoNascimento">Ano de Nascimento</label>
+                    <input id="AnoNascimento" type="date" required>
+                </div>
 
-            <fieldset>
-                <label>Idade</label>
-                <input name="idade" type="text">
-            </fieldset>
+                <div class="cards">
+                    <label for="idade">Idade</label>
+                    <input id="Idade" type="number" placeholder="Idade calculada" readonly value="" required>
+                </div>
+            </form>
 
-            <button type="submit" value="Cadastrar">Cadastrar</button>
+            <button id="Cadastrar" type="button">Cadastrar</button>
+        </div>
 
+        <div class="form">
+            <div class="container">
+                <button id="Limpar" type="button">Limpar</button>
 
-        </form>
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="TbNomeCompleto">Nome Completo</th>
+                            <th id="TbIdade">Idade</th>
+                        </tr>
+                    </thead>
 
+                    <tbody id="MinhaLista">
 
-        <table>
-            <thead>
-                <tr>
-                    <th class="nome">Nome Completo</th>
-                    <th class="idade">Idade</th>
-                </tr>
-            </thead>
-        </table>
+                        <tr>
+                            <td>Teste</td>
+                            <td>22</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
 
     </main>
 
-
+    <script src="./Funções.js"></script>
 
 </body>
 

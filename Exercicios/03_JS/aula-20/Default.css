@@ -1,6 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
+main {
+    margin: 0 auto, 0 auto;
+    width: 50%;
+    max-width: 1366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    font-size: 18px;
 }
 
 body {
@@ -8,89 +14,68 @@ body {
     justify-content: center;
 }
 
-.container {
-    position: relative;
-    margin-top: 8px;
-    width: 700px;
-    height: 23em;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+.form {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
+    border: solid 1px #cccccc;
+    border-radius: 5px;
+    margin-bottom: 1em;
 }
 
-fieldset {
-    border: none;
+.container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-
-label {
-    position: relative;
-    padding: 0.7em;
-    top: 2px;
-    right: 15px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
+    width: 80%;
+    font-size: 18px;
 }
 
 input {
-    position: relative;
-    top: -12px;
-    width: 550px;
-    height: 30px;
+    border: 1px solid #cccccc;
     border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    margin: 0;
+    padding: 0;
     text-indent: 8px;
 }
 
-button {
-    width: 6.1em;
+.cards {
+    padding-top: 1em;
+}
+
+.cards label {
+    display: block;
+    margin-top: .25em;
+    text-indent: 8px;
+}
+
+.cards input {
+    display: inline-block;
+    width: 100%;
     height: 2em;
-    margin-top: -5px;
-    font-size: large;
+}
+
+button {
     background-color: green;
+    align-self: center;
     color: white;
-    border: 1px solid rgba(0, 0, 0, 0);
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-size: 18px;
+    border: none;
     border-radius: 5px;
+    height: 2em;
+    padding: 5px;
+    width: 100px;
 }
 
 table {
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    margin-top: 15px;
-    width: 44em;
-    height: 2.5em;
+    width: 100%;
 }
 
-thead {
-    display: flex;
-    justify-content: center;
-    border: 1px solid;
+table,
+td,
+th {
+    border: solid 1px black;
     border-radius: 5px;
-    height: 2.1em;
-    margin-left: 100px;
-    margin-right: 100px;
+    text-align: center;
 }
-
-.nome {
-    border: 1px solid;
-    border-radius: 5px;
-    width: 30em;
-    height: 1.5em;
-    font-size: 18px;
-}
-
-.idade {
-    border: 1px solid;
-    border-radius: 5px;
-    height: 1.5em;
-    font-size: 18px;
-}
-
-@media screen and (min-width: 900px) and (max-width: 1200px) {}
