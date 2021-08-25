@@ -18,7 +18,9 @@ buttomCadastrar.addEventListener('click', cadastrar)
 
 buttomLimpar.addEventListener('click', limpar)
 
+
 tbNomeCompleto.addEventListener('click', () => {
+    ordenar(ordenarPorNome)
 
 })
 
@@ -114,11 +116,14 @@ function setPessoasNaLista() {
     console.log(listaDePessoas)
 }
 
-function ordenarPorNome() {
-
-
-
+function ordenarPorNome(a, b) {
+    if (a.nomecompleto < b.nomecompleto)
+        return -1;
+    if (a.nomecompleto > b.nomecompleto)
+        return 1;
 }
+
+
 
 function ordenarIdade(a, b) {
     return a.idade - b.idade

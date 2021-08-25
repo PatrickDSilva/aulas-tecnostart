@@ -91,9 +91,25 @@ const listaDePessoas = [{
 ]
 
 
-// Lista Telefonica //
+// Ver Amanha com o Professor //
 // let listaTelefonica = [];
+// for (let i = 0; i < listaDePessoas.length; i++) {
+//     let lista = listaDePessoas[i];
 
+//     let listaTelefonica = {
+//         "nome": lista.nome,
+//         "telefone_fixo": lista.telefone_fixo,
+//         "celular": lista.celular,
+//     }
+
+//     listaTelefonica.push(listaTelefonica)
+// }
+
+
+// console.log(listaTelefonica)
+
+
+// Lista Telefonica //
 // listaTelefonica = listaDePessoas.map(lista => {
 //     return {
 //         "nome": lista.nome,
