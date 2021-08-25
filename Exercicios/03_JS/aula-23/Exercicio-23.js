@@ -91,22 +91,22 @@ const listaDePessoas = [{
 ]
 
 
-// Ver Amanha com o Professor //
-// let listaTelefonica = [];
-// for (let i = 0; i < listaDePessoas.length; i++) {
-//     let lista = listaDePessoas[i];
+//Ver Amanha com o Professor //
+let listaTelefonica = [];
+for (let i = 0; i < listaDePessoas.length; i++) {
+    let lista = listaDePessoas[i];
 
-//     let listaTelefonica = {
-//         "nome": lista.nome,
-//         "telefone_fixo": lista.telefone_fixo,
-//         "celular": lista.celular,
-//     }
+    let pessoas = {
+        "nome": lista.nome,
+        "telefone_fixo": lista.telefone_fixo,
+        "celular": lista.celular,
+    }
 
-//     listaTelefonica.push(listaTelefonica)
-// }
+    listaTelefonica.push(pessoas)
+}
 
 
-// console.log(listaTelefonica)
+console.log(listaTelefonica)
 
 
 // Lista Telefonica //
