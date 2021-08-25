@@ -1,0 +1,286 @@
+.primeiroTitulo {
+    margin-bottom: .5em;
+    margin-top: 20px;
+    margin-left: 450px;
+    margin-right: 420px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#image {
+    position: relative;
+    width: 1030px;
+    height: 297px;
+    margin-left: 157px;
+    margin-right: 150px;
+    margin-bottom: 1em;
+}
+
+.text1 {
+    position: relative;
+    height: 296px;
+    margin-left: 156px;
+    margin-right: 156px;
+    border: 1px solid, white;
+    background-color: rgb(59, 209, 59);
+    margin-bottom: 1em;
+}
+
+.titulo1 {
+    position: relative;
+    margin-left: 190px;
+    margin-right: 190px;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#ImageLorem {
+    position: absolute;
+    margin-left: 462px;
+    width: 570px;
+}
+
+.titulo1 {
+    margin-left: 200px;
+}
+
+.paragrafo1 {
+    width: 450px;
+    text-align: justify;
+    margin-left: 5px;
+}
+
+.text2 {
+    position: relative;
+    height: 296px;
+    margin-left: 156px;
+    margin-right: 156px;
+    border: 1px solid white;
+    background-color: rgb(59, 209, 59);
+    margin-bottom: 1em;
+}
+
+.titulo2 {
+    position: relative;
+    margin-left: 760px;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#ImageIpsum {
+    position: absolute;
+    width: 570px;
+    margin-top: -57px;
+    margin-left: -2px;
+}
+
+.titulo1 {
+    margin-left: 200px;
+}
+
+.paragrafo2 {
+    width: 450px;
+    text-align: justify;
+    position: relative;
+    margin-left: 575px;
+}
+
+.lastText {
+    position: relative;
+    text-align: center;
+    border: 1px solid;
+    padding: 1em;
+    height: 640px;
+    margin-left: 155px;
+    margin-right: 155px;
+}
+
+.printing {
+    padding: .5em;
+}
+
+@media screen and (max-width: 700px) {
+    .primeiroTitulo {
+        margin-bottom: .5em;
+        margin-top: 20px;
+        margin-left: 450px;
+        margin-right: 420px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    #image {
+        position: relative;
+        width: 1030px;
+        height: 297px;
+        margin-left: 157px;
+        margin-right: 150px;
+        margin-bottom: 1em;
+    }
+    .text1 {
+        position: relative;
+        height: 296px;
+        margin-left: 156px;
+        margin-right: 156px;
+        border: 1px solid, white;
+        background-color: rgb(59, 209, 59);
+        margin-bottom: 1em;
+    }
+    .titulo1 {
+        position: relative;
+        margin-left: 190px;
+        margin-right: 190px;
+        padding: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+    }
+    #ImageLorem {
+        position: absolute;
+        margin-left: 462px;
+        width: 570px;
+    }
+    .titulo1 {
+        margin-left: 200px;
+    }
+    .paragrafo1 {
+        width: 450px;
+        text-align: justify;
+        margin-left: 5px;
+    }
+    .text2 {
+        position: relative;
+        height: 296px;
+        margin-left: 156px;
+        margin-right: 156px;
+        border: 1px solid white;
+        background-color: rgb(59, 209, 59);
+        margin-bottom: 1em;
+    }
+    .titulo2 {
+        position: relative;
+        margin-left: 760px;
+        padding: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+    }
+    #ImageIpsum {
+        position: absolute;
+        width: 570px;
+        margin-top: -57px;
+        margin-left: -2px;
+    }
+    .titulo1 {
+        margin-left: 200px;
+    }
+    .paragrafo2 {
+        width: 450px;
+        text-align: justify;
+        position: relative;
+        margin-left: 575px;
+    }
+    .lastText {
+        position: relative;
+        text-align: center;
+        border: 1px solid;
+        padding: 1em;
+        height: 640px;
+        margin-left: 155px;
+        margin-right: 155px;
+    }
+    .printing {
+        padding: .5em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .primeiroTitulo {
+        margin-bottom: .5em;
+        margin-top: 20px;
+        margin-left: 450px;
+        margin-right: 420px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    #image {
+        position: relative;
+        width: 1030px;
+        height: 297px;
+        margin-left: 157px;
+        margin-right: 150px;
+        margin-bottom: 1em;
+    }
+    .text1 {
+        position: relative;
+        height: 296px;
+        margin-left: 156px;
+        margin-right: 156px;
+        border: 1px solid, white;
+        background-color: rgb(59, 209, 59);
+        margin-bottom: 1em;
+    }
+    .titulo1 {
+        position: relative;
+        margin-left: 190px;
+        margin-right: 190px;
+        padding: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+    }
+    #ImageLorem {
+        position: absolute;
+        margin-left: 462px;
+        width: 570px;
+    }
+    .titulo1 {
+        margin-left: 200px;
+    }
+    .paragrafo1 {
+        width: 450px;
+        text-align: justify;
+        margin-left: 5px;
+    }
+    .text2 {
+        position: relative;
+        height: 296px;
+        margin-left: 156px;
+        margin-right: 156px;
+        border: 1px solid white;
+        background-color: rgb(59, 209, 59);
+        margin-bottom: 1em;
+    }
+    .titulo2 {
+        position: relative;
+        margin-left: 760px;
+        padding: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+    }
+    #ImageIpsum {
+        position: absolute;
+        width: 570px;
+        margin-top: -57px;
+        margin-left: -2px;
+    }
+    .titulo1 {
+        margin-left: 200px;
+    }
+    .paragrafo2 {
+        width: 450px;
+        text-align: justify;
+        position: relative;
+        margin-left: 575px;
+    }
+    .lastText {
+        position: relative;
+        text-align: center;
+        border: 1px solid;
+        padding: 1em;
+        height: 640px;
+        margin-left: 155px;
+        margin-right: 155px;
+    }
+    .printing {
+        padding: .5em;
+    }
+}
