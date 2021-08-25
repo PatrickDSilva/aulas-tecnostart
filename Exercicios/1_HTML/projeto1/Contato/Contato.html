@@ -7,86 +7,76 @@
     <link rel="stylesheet" href="./default.css" href="Contato.css">
     <link rel="stylesheet" href="Contato.css">
     <title>Contato</title>
-    <link rel="icon" type="jpeg/png" href="../Inicial.html/favicon.ico" alt="Logo de triangulo" size="16x16">
+
 </head>
 
 <body>
-    <img type="img/jpeg" src="./ImgFundoLinkedin.jpeg" alt="Logo TecnoStart" width="250px">
+
     <header>
-
-
         <div class="container">
-            <img type="img/jpeg" src="./ImgFundoLinkedin.jpeg" alt="Logo TecnoStart" width="250px">
+            <img type="img/jpeg" src="./Universo_Marvel.png" alt="Logo TecnoStart" width="250px">
 
 
-            <nav>
+            <div>
                 <ul class="menu">
                     <li>
                         <a href="../Inicial.html/Inicial.html" target="_self">Inicial</a>
                     </li>
                     <li>
-                        <a href="./Contato.html" target="_self">Sobre</a>
+                        <a href="Contato.html" target="_self">Contato</a>
                     </li>
                     <li>
-                        <a href="../Sobre.html/Sobre.html" target="_self">Contato</a>
+                        <a href="../Sobre.html/Sobre.html" target="_self">Sobre</a>
                     </li>
                 </ul>
-            </nav>
+            </div>
         </div>
     </header>
+    <hr>
 
 
     <main>
 
-        <form method="POST" class="container4">
+        <form class="container4">
 
 
-            <fieldset>
-                <legend>Dados Pessoais</legend>
-                <div class="DP">
-                    <label>Nome:<input name="Nome-do-Aluno" type="text" required></label>
-                    <label>Sobrenome:<input name= "Sobrenome" type="text" required></label>
-                    <label>Data de Nascimento:<input name="Data de Nascimento" type="date" required></label>
-                </div>
-            </fieldset>
+            <fieldset style="margin-top: 30px; height: 40px;">
 
-            <fieldset>
-                <legend>Sexo</legend>
-                <div class="S">
-                    <label><input type="radio" name="sexo" id="radio" value="M" checked>Masculino</label>
-                    <label><input type="radio" name="sexo" id="radio" value="F">Feminino</label>
-                    <label><input type="radio" name="sexo" id="radio" value="LGBQT">LGBTQIA+</label>
-                </div>
-            </fieldset>
+                <label for=" nome do personagem ">Nome do Personagem:</label>
+                <input type="text " id="nomePersonagem " name="nome do personagem ">
 
-            <fieldset>
-                <legend>Dados Contato</legend>
-                <div class="C">
-                    <label>Telefone: <input name="Telefone" type="tel" required></label>
-                    <label>E-mail: <input name="E-mail" type="text" required></label>
-                </div>
-            </fieldset>
+                <label for="nome de usuário ">Nome de Usuário:</label>
+                <input type="text " id="nomeUsuario " name="nome de usuários ">
 
-            <Fieldset>
-                <legend>Contato2</legend>
-                <div class="C2">
-                    <label>Escolaridade</label>
-                    <select name="dsEscolaridade" required>
-                <option value=" " selected disabled>Selecione a Escolaridade</option>
-                <option value="1">Analfabeto</option>
-                <option value="2">Fundamental Incompleto</option>
-                <option value="3">Fundamental Completo</option>
-                <option value="4">Ensino Médio Incompleto</option>
-                <option value="5">Ensino Médio Completo</option>
-                <option value="6">Ensino Tecnico Incompleto</option>
-                <option value="7">Ensino Tecnico Completo</option>
-                <option value="8">Ensino Superior Incompleto</option>
-                <option value="9">Ensino Superior Completo</option>
+                <label for="password ">Password:</label>
+                <input type="password " id="pass " name="password ">
+
+                <label for="email ">Email</label>
+                <input type="email " id="email " name="email ">
+
+
+
+                <div class="C2 ">
+                    <label>Selecione o tipo de personagem</label>
+                    <select name="dsEscolaridade " required>
+                <option value=" " selected disabled>Selecione a espécie</option>
+                <option value="1 ">Homem-de-Ferro</option>
+                <option value="2 ">Viúva Negra</option>
+                <option value="3 ">Falcão</option>
+                <option value="4 ">Capitão América</option>
+                <option value="5 ">Soldado Invernal</option>
+                <option value="6 ">Loki</option>
+                <option value="7 ">Homem-Aranha</option>
+                <option value="8 ">Wolverine</option>
+                <option value="9 ">Wanda</option>E</option>
                 </select>
                 </div>
-            </Fieldset>
-            <div class="container3">
+            </fieldset>
+
+            <div class="container3 ">
                 <input class="botão" type="submit" value="Cadastrar Aluno">
+                <a href="../Sobre.html/Sobre.html"><button type="button">Voltar para descritivo dos personagens</button></a>
+
             </div>
         </form>
     </main>
@@ -95,9 +85,9 @@
 
 
     <footer>
-        <div class="POL">
+        <div class="POL ">
             <p>Todos os diretos são reservados aos guris da Tecno Start &#128526; &#169;</p>
-            <a rel="noopener" target="_blank" href="https://policies.google.com/privacy?hl=pt-BR ">Política de Privacidade</a>
+            <a rel="noopener " target="_blank " href="https://policies.google.com/privacy?hl=pt-BR ">Política de Privacidade</a>
         </div>
     </footer>
 
