@@ -145,8 +145,10 @@ const listaDePessoas = [{
 
 
 
-// Removendo Ultimo Elemento //
+// Removendo Ultimo Elemento // // Vai alterar a lista //
 
+// listaDePessoas.pop();
+// console.log(listaDePessoas);
 
 // let listaDePessoaMenosUm = listaDePessoas
 // listaDePessoaMenosUm.pop()
@@ -155,6 +157,16 @@ const listaDePessoas = [{
 
 
 // Inserindo Pessoa //
+
+// listaDePessoas.push({ // Vai alterar a lista //
+//     nome: "Alana Vera Assis",
+//     idade: 68,
+//     data_nasc: "01-05-1953",
+//     sexo: "Feminino",
+//     estado: "PB",
+//     telefone_fixo: "(83) 2837-2032",
+//     celular: "(83) 99413-4852"
+// })
 
 // console.log(listaDePessoas)
 
@@ -177,5 +189,39 @@ const listaDePessoas = [{
 
 // Lista para Estado //
 
-// primeiraPessoaRs = listaDePessoas.filter(pessoa => pessoa.estado === "RS");
-// console.log(primeiraPessoaRs);
+// let listaDeEstado = []
+
+// listaDePessoas.forEach(pessoa => {
+//     const mecanismoDeBusca = (pessoaEstado) => pessoaEstado.estado === pessoa.estado
+
+//     if (!listaDeEstado.find(elemento => elemento.estado === pessoa.estado)) {
+//         listaDeEstado.push({
+//             estado: pessoa.estado,
+//             pessoa: listaDePessoas.filter(mecanismoDeBusca)
+//         })
+
+
+
+//     }
+// })
+
+// listaDeEstado.forEach(estado => console.log(estado))
+
+
+let listaDeEstado = []
+
+listaDePessoas.forEach(pessoa => {
+    const mecanismoDeBusca = (pessoaEstado) => pessoaEstado.estado === pessoa.estado
+
+    if (!listaDeEstado.find(mecanismoDeBusca)) {
+        listaDeEstado.push({
+            estado: pessoa.estado,
+            pessoa: listaDePessoas.filter(mecanismoDeBusca)
+        })
+
+
+
+    }
+})
+
+listaDeEstado.forEach(estado => console.log(estado))
