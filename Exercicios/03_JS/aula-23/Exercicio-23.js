@@ -132,10 +132,8 @@ const listaDePessoas = [{
 
 // Masculino //
 
-// listaGeneroMasculino = listaDePessoas.filter((genero) => {
-//    return genero.sexo === "Masculino";
-// })
-// console.log(listaGeneroMasculino);
+//listaGeneroMasculino = listaDePessoas.filter(genero => genero.sexo === "Masculino")
+//console.log(listaGeneroMasculino);
 
 
 // Nome da Pessoa //
