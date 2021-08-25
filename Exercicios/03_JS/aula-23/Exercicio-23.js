@@ -123,11 +123,8 @@ const listaDePessoas = [{
 
 // Feminino //
 
-//listaGeneroFeminino = listaDePessoas.filter((genero) => {
-//    return genero.sexo === "Feminino";
-//})
+//listaGeneroFeminino = listaDePessoas.filter(genero => genero.sexo === "Feminino") 
 //console.log(listaGeneroFeminino);
-
 
 
 // Masculino //
@@ -153,6 +150,10 @@ const listaDePessoas = [{
 // listaDePessoas.pop();
 // console.log(listaDePessoas);
 
+let listaDePessoaMenosUm = listaDePessoas
+listaDePessoaMenosUm.pop()
+console.log(listaDePessoaMenosUm)
+
 
 
 // Inserindo Pessoa //
@@ -168,6 +169,22 @@ const listaDePessoas = [{
 // })
 
 // console.log(listaDePessoas)
+
+// const pessoaExtra = {
+//     nome: "Alana Vera Assis",
+//     idade: 68,
+//     data_nasc: "01-05-1953",
+//     sexo: "Feminino",
+//     estado: "PB",
+//     telefone_fixo: "(83) 2837-2032",
+//     celular: "(83) 99413-4852"
+// }
+
+// let listaDePessoaMaisUm = listaDePessoas
+// listaDePessoaMaisUm.push(pessoaExtra)
+
+// console.log(listaDePessoaMaisUm)
+
 
 
 // Lista para Estado //
