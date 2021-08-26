@@ -208,20 +208,20 @@ const listaDePessoas = [{
 // listaDeEstado.forEach(estado => console.log(estado))
 
 
-let listaDeEstado = []
+// let listaDeEstado = []
 
-listaDePessoas.forEach(pessoa => {
-    const mecanismoDeBusca = (pessoaEstado) => pessoaEstado.estado === pessoa.estado
+// listaDePessoas.forEach(pessoa => {
+//     const mecanismoDeBusca = (pessoaEstado) => pessoaEstado.estado === pessoa.estado
 
-    if (!listaDeEstado.find(mecanismoDeBusca)) {
-        listaDeEstado.push({
-            estado: pessoa.estado,
-            pessoa: listaDePessoas.filter(mecanismoDeBusca)
-        })
+//     if (!listaDeEstado.find(mecanismoDeBusca)) {
+//         listaDeEstado.push({
+//             estado: pessoa.estado,
+//             pessoa: listaDePessoas.filter(mecanismoDeBusca)
+//         })
 
 
 
-    }
-})
+//     }
+// })
 
-listaDeEstado.forEach(estado => console.log(estado))
+// listaDeEstado.forEach(estado => console.log(estado))
