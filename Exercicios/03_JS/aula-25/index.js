@@ -12,14 +12,42 @@ linhas.forEach((linha, indiceL) => {
         const campo = td.querySelectorAll('.campo')[0];
 
         campo.addEventListener('click', () => {
-            alert('cliquei com o botão esquerdo');
+            if (!campo.className.includes("aberto")) {
+                if (campo.className.includes("marcado")) {
+                    campo.className = "campo"
+                    campo.innerText = ""
+                } else {
+                    campo.className = "campo aberto"
+                    campo.innerText = ""
+                }
+            }
+
         })
 
         campo.addEventListener('contextmenu', () => {
-            alert('cliquei com o botão direito')
+
+
+            if (!campo.className.includes("aberto")) {
+                if (campo.className.includes("marcado")) {
+                    campo.className = "campo"
+                    campo.innerText = ""
+                } else {
+                    campo.className = "campo marcado"
+                    campo.innerText = "M"
+                }
+            }
+
+
+
+
         })
+
 
 
     })
 
 })
+
+function marcar() {
+
+}
