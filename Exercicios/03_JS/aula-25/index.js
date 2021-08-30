@@ -11,9 +11,16 @@ linhas.forEach((linha, indiceL) => {
 
         const campo = td.querySelectorAll('.campo')[0];
 
+        atribuirBombasAosCampos({
+            campo,
+            indiceL,
+            indiceC,
+        });
+
         campo.addEventListener('click', () => {
+            alert("")
             if (!campo.className.includes("aberto")) {
-                if (campo.className.includes("marcado")) {
+                if (campo.className.includes("aberto")) {
                     campo.className = "campo"
                     campo.innerText = ""
                 } else {
@@ -24,30 +31,37 @@ linhas.forEach((linha, indiceL) => {
 
         })
 
+
         campo.addEventListener('contextmenu', () => {
 
 
             if (!campo.className.includes("aberto")) {
                 if (campo.className.includes("marcado")) {
-                    campo.className = "campo"
+                    campo.className = campo.className.replace(' marcado', '')
                     campo.innerText = ""
                 } else {
                     campo.className = "campo marcado"
-                    campo.innerText = "M"
+                    campo.innerText = "🚩"
                 }
             }
 
-
-
-
         })
-
-
 
     })
 
 })
 
-function marcar() {
+
+function atribuirBombasAosCampos(elemento) {
+    Math.random();
+
+    if (Math.random() > 0.67) {
+        elemento.campo.innerText = "B"
+        elemento.className = 'campo bomba'
+    } else {
+        elemento.campo.innerText = ""
+        elemento.campo.className = 'campo'
+
+    }
 
 }

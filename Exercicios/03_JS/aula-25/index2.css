@@ -4,14 +4,39 @@
 }
 
 .campo {
-    height: 15px;
-    width: 15px;
+    height: 19px;
+    width: 19px;
     background-color: #cccccc;
+    border-style: ridge 2px
 }
 
-body {
+.container {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+table {
+    border: 1px solid;
+}
+
+.marcado {
+    border-style: inset
+}
+
+.alerta {
+    /* campo que ao redor tem bomba */
+}
+
+.aberto {
+    background-color: aqua;
+}
+
+.explodido {
+    /* campo no qual explodiu a bomba */
+}
+
+.bomba {
+    /* campo aberto com bomba */
 }
