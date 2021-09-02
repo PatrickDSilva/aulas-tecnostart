@@ -2,6 +2,7 @@ const tabuleiro = document.querySelector('#Tabuleiro');
 const linhas = tabuleiro.querySelectorAll('tr');
 
 
+
 linhas.forEach((linha, indiceL) => {
 
     const colunas = linha.querySelectorAll('td');
@@ -18,7 +19,7 @@ linhas.forEach((linha, indiceL) => {
         });
 
         campo.addEventListener('click', () => {
-            alert("")
+
             if (!campo.className.includes("aberto")) {
                 if (campo.className.includes("aberto")) {
                     campo.className = "campo"
@@ -43,6 +44,7 @@ linhas.forEach((linha, indiceL) => {
                     campo.className = "campo marcado"
                     campo.innerText = "🚩"
                 }
+
             }
 
         })
@@ -61,7 +63,29 @@ function atribuirBombasAosCampos(elemento) {
     } else {
         elemento.campo.innerText = ""
         elemento.campo.className = 'campo'
-
     }
 
 }
+
+
+
+
+
+
+
+
+
+//listaGeneroFeminino = listaDePessoas.filter(genero => genero.sexo === "Feminino") 
+
+// campo.forEach( => console.log(pessoa.nome))
+
+// Lista Telefonica //
+// listaTelefonica = listaDePessoas.map(lista => {
+//     return {
+//         "nome": lista.nome,
+//         "telefone_fixo": lista.telefone_fixo,
+//         "celular": lista.celular,
+//     }
+// })
+
+// console.log(listaTelefonica);
